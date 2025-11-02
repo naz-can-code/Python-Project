@@ -1,0 +1,69 @@
+2025-07-17 19:41:27,675 - INFO - Ingesting begin_inventory.csv in db
+2025-07-17 19:41:29,437 - INFO - Ingesting end_inventory.csv in db
+2025-07-17 19:41:34,757 - INFO - Ingesting purchases.csv in db
+2025-07-17 19:42:05,957 - INFO - Ingesting purchase_prices.csv in db
+2025-07-17 19:42:21,691 - INFO - Ingesting sales.csv in db
+2025-07-18 13:48:56,241 - INFO - Ingesting vendor_invoice.csv in db
+2025-07-18 13:48:56,512 - INFO - ------------Ingestion Complete------------
+2025-07-18 13:48:56,512 - INFO - 
+Total TIme Taken: 1087.485436197122 minutes
+2025-07-18 13:48:57,181 - INFO - Ingesting begin_inventory.csv in db
+2025-07-18 13:49:01,296 - INFO - Ingesting end_inventory.csv in db
+2025-07-18 13:49:15,008 - INFO - Ingesting purchases.csv in db
+2025-07-18 13:50:26,818 - INFO - Ingesting purchase_prices.csv in db
+2025-07-18 13:51:02,239 - INFO - Ingesting sales.csv in db
+2025-07-18 14:02:09,971 - INFO - Ingesting vendor_invoice.csv in db
+2025-07-18 14:02:10,232 - INFO - ------------Ingestion Complete------------
+2025-07-18 14:02:10,233 - INFO - 
+Total TIme Taken: 13.227050824960072 minutes
+2025-07-18 14:02:10,596 - ERROR - No such comm target registered: jupyter.widget.control
+2025-07-18 14:02:10,601 - WARNING - No such comm: 786bf4b4-0a9f-4fad-9bf6-4df38bc3ca76
+2025-07-18 14:02:10,601 - DEBUG - Current comms: []
+2025-07-19 18:11:30,580 - INFO - Ingesting begin_inventory.csv in db
+2025-07-19 18:11:34,583 - INFO - Ingesting end_inventory.csv in db
+2025-07-19 18:11:47,349 - INFO - Ingesting purchases.csv in db
+2025-07-19 18:12:57,123 - INFO - Ingesting purchase_prices.csv in db
+2025-07-19 18:13:35,883 - INFO - Ingesting sales.csv in db
+2025-07-19 18:24:32,577 - INFO - Ingesting vendor_invoice.csv in db
+2025-07-19 18:24:32,800 - INFO - ------------Ingestion Complete------------
+2025-07-19 18:24:32,801 - INFO - 
+Total TIme Taken: 13.045821452140808 minutes
+2025-07-19 18:24:33,421 - INFO - Ingesting begin_inventory.csv in db
+2025-07-19 18:24:37,266 - INFO - Ingesting end_inventory.csv in db
+2025-07-19 18:24:49,728 - INFO - Ingesting purchases.csv in db
+2025-07-19 18:26:01,365 - INFO - Ingesting purchase_prices.csv in db
+2025-07-19 18:26:34,276 - INFO - Ingesting sales.csv in db
+2025-07-19 18:37:33,615 - INFO - Ingesting vendor_invoice.csv in db
+2025-07-19 18:37:33,846 - INFO - ------------Ingestion Complete------------
+2025-07-19 18:37:33,847 - INFO - 
+Total TIme Taken: 13.015390769640605 minutes
+2025-08-23 19:29:16,201 - INFO - Creating Vendor Summary Table....
+2025-08-23 19:31:16,015 - INFO - Creating Vendor Summary Table....
+2025-08-23 19:31:33,483 - INFO -    VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          26.27        36.99   1750                 145080   
+1          23.19        28.99   1750                 164038   
+2          18.24        24.99   1750                 187407   
+3          16.17        22.99   1750                 201682   
+4          21.89        29.99   1750                 138109   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesPrice  \
+0            3811251.60            142049.0        672819.31   
+1            3804041.22            160247.0        561512.37   
+2            3418303.68            187140.0        461140.15   
+3            3261197.94            200412.0        420050.01   
+4            3023206.01            135838.0        545778.28   
+
+   TotalSalesDollars  TotalExciseTax  FreightCost  
+0         5101919.51       260999.20     68601.68  
+1         4819073.49       294438.66    144929.24  
+2         4538120.60       343854.07    123780.22  
+3         4475972.88       368242.80    257032.07  
+4         4223107.62       249587.83    257032.07  
+2025-08-23 19:31:33,488 - INFO - Cleaning Data....
